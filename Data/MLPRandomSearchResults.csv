@@ -1,101 +1,101 @@
 hidden_layer_sizes,activation,optimizer,learning_rate,batch_size,dropout_rate,loss,rmse
-"[256, 128]",elu,rmsprop,0.005,16,0.2,mean_squared_error,858.8234320860138
-"[128, 64, 32]",leaky_relu,adam,0.001,16,0.1,mean_squared_error,858.825870010912
-"[128, 64, 32]",elu,rmsprop,0.005,16,0.1,mean_squared_error,859.6851531229325
-"[64, 32]",relu,adam,0.005,64,0.0,mean_squared_error,864.2967155439155
-"[128, 64]",relu,rmsprop,0.01,32,0.1,mean_squared_error,865.4254011756299
-"[256, 128]",relu,adam,0.001,16,0.2,huber,866.7689282617368
-"[128, 64]",leaky_relu,adam,0.01,32,0.1,mean_squared_error,870.1695237136267
-"[256, 128, 64]",elu,adam,0.005,32,0.0,huber,870.8306379543614
-"[256, 128, 64]",elu,adam,0.005,64,0.0,mean_absolute_error,875.3538570201196
-"[256, 128]",elu,adam,0.001,16,0.2,mean_absolute_error,875.6591089002615
-"[256, 128, 64]",elu,adam,0.01,16,0.2,mean_absolute_error,876.9571682813249
-"[256, 128]",elu,rmsprop,0.01,16,0.2,mean_absolute_error,877.9632324306069
-"[256, 128]",elu,sgd,0.005,16,0.1,huber,878.0703274795248
-"[256, 128, 64]",elu,sgd,0.005,64,0.2,mean_absolute_error,882.2261969019056
-"[64, 32]",elu,rmsprop,0.01,64,0.1,mean_absolute_error,882.5671362565004
-"[256, 128, 64]",elu,rmsprop,0.01,32,0.2,huber,883.7847942231185
-"[256, 128, 64]",elu,sgd,0.005,32,0.1,huber,884.235898954572
-"[64, 32]",elu,adam,0.005,16,0.2,mean_absolute_error,884.417216306874
-"[128, 64, 32]",relu,rmsprop,0.001,16,0.1,mean_absolute_error,884.8264660372677
-"[256, 128, 64]",elu,sgd,0.001,64,0.2,mean_absolute_error,885.740191873441
-"[128, 64, 32]",leaky_relu,rmsprop,0.005,16,0.0,huber,887.0235693035445
-"[256, 128]",relu,adam,0.005,16,0.1,mean_absolute_error,887.1254139071882
-"[128, 64, 32]",elu,adam,0.0001,64,0.0,mean_squared_error,888.6403940852565
-"[64, 32]",elu,adam,0.001,32,0.1,mean_squared_error,889.0444308357147
-"[256, 128, 64]",elu,adam,0.01,16,0.0,huber,889.1352540530603
-"[256, 128]",leaky_relu,rmsprop,0.005,32,0.0,mean_absolute_error,889.2536547577412
-"[256, 128]",elu,adam,0.001,32,0.0,mean_squared_error,890.5
-"[128, 64, 32]",elu,adam,0.0005,16,0.1,mean_squared_error,891.2653575114429
-"[256, 128]",relu,rmsprop,0.001,16,0.0,mean_absolute_error,892.7665918368585
-"[128, 64, 32]",elu,rmsprop,0.001,64,0.2,mean_squared_error,892.779228028968
-"[128, 64, 32]",elu,sgd,0.01,32,0.1,mean_absolute_error,893.3530587063549
-"[256, 128, 64]",leaky_relu,adam,0.01,64,0.1,mean_squared_error,893.3820921084102
-"[64, 32]",elu,adam,0.0005,16,0.2,mean_squared_error,893.7627271821084
-"[256, 128]",elu,adam,0.001,16,0.2,huber,894.9326091946812
-"[256, 128]",relu,adam,0.005,32,0.0,mean_absolute_error,897.9232985060584
-"[64, 32]",relu,rmsprop,0.01,16,0.0,mean_squared_error,898.6650168444302
-"[128, 64, 32]",leaky_relu,rmsprop,0.01,32,0.1,huber,899.9002028002883
-"[128, 64]",relu,adam,0.001,32,0.1,mean_absolute_error,900.824622221218
-"[256, 128]",elu,adam,0.0001,32,0.2,mean_squared_error,901.5533816696602
-"[256, 128]",elu,adam,0.0001,32,0.0,mean_squared_error,901.6153212429346
-"[128, 64]",leaky_relu,rmsprop,0.005,32,0.1,huber,903.0001384274534
-"[256, 128]",relu,rmsprop,0.0005,32,0.0,mean_absolute_error,903.3599088956738
-"[128, 64]",relu,adam,0.001,64,0.1,mean_absolute_error,905.1579627335773
-"[128, 64]",leaky_relu,adam,0.005,32,0.2,huber,911.6514547786342
-"[256, 128]",leaky_relu,rmsprop,0.005,16,0.0,huber,912.2961073576934
-"[64, 32]",relu,rmsprop,0.005,64,0.2,mean_absolute_error,914.0077611814902
-"[256, 128, 64]",leaky_relu,sgd,0.005,16,0.2,mean_absolute_error,919.295076403654
-"[256, 128, 64]",elu,rmsprop,0.0005,32,0.0,huber,921.3809947573262
-"[128, 64]",elu,adam,0.001,64,0.2,mean_absolute_error,924.8872228547651
-"[256, 128, 64]",leaky_relu,adam,0.0005,32,0.0,mean_squared_error,930.9820084190671
-"[128, 64, 32]",elu,sgd,0.01,64,0.0,mean_absolute_error,936.5057394378317
-"[128, 64]",relu,adam,0.0005,64,0.1,huber,939.8223901354979
-"[64, 32]",leaky_relu,adam,0.005,64,0.0,mean_squared_error,940.1523812659308
-"[256, 128]",relu,adam,0.0005,32,0.1,mean_absolute_error,944.6349162507174
-"[128, 64, 32]",relu,sgd,0.0005,16,0.2,huber,950.7048043425467
-"[128, 64]",elu,rmsprop,0.001,64,0.0,mean_squared_error,954.1667831149856
-"[128, 64]",elu,adam,0.0005,32,0.0,huber,957.3181289414716
-"[64, 32]",elu,rmsprop,0.0005,16,0.1,huber,970.3302272937807
-"[256, 128]",relu,sgd,0.01,32,0.2,mean_absolute_error,987.0542348321089
-"[256, 128]",elu,rmsprop,0.0001,16,0.0,mean_absolute_error,988.8691457923035
-"[128, 64]",relu,rmsprop,0.0005,16,0.2,mean_absolute_error,1029.8082952666482
-"[128, 64, 32]",leaky_relu,sgd,0.01,16,0.2,mean_absolute_error,1045.7493126940128
-"[128, 64]",leaky_relu,rmsprop,0.001,16,0.0,mean_squared_error,1063.9803804582114
-"[128, 64, 32]",relu,rmsprop,0.001,16,0.2,mean_squared_error,1072.8699828031354
-"[128, 64, 32]",elu,sgd,0.0001,64,0.2,huber,1079.2953719904483
-"[256, 128, 64]",leaky_relu,sgd,0.01,64,0.2,huber,1096.1664449343448
-"[128, 64]",relu,rmsprop,0.0001,16,0.0,mean_squared_error,1126.1583481020775
-"[256, 128, 64]",relu,sgd,0.005,64,0.1,mean_absolute_error,1131.0968680886708
-"[128, 64]",leaky_relu,rmsprop,0.001,16,0.0,mean_absolute_error,1149.9253236623672
-"[64, 32]",elu,sgd,0.0001,32,0.1,huber,1189.836648452215
-"[128, 64]",elu,sgd,0.0005,64,0.2,mean_absolute_error,1200.0927047524287
-"[64, 32]",leaky_relu,adam,0.0001,64,0.1,mean_absolute_error,1212.0396548793278
-"[128, 64, 32]",relu,rmsprop,0.0005,64,0.2,mean_squared_error,1232.6172358035562
-"[256, 128, 64]",relu,sgd,0.001,32,0.0,mean_absolute_error,1240.1627917334079
-"[256, 128, 64]",relu,rmsprop,0.0001,16,0.1,huber,1327.2366499611137
-"[128, 64, 32]",leaky_relu,sgd,0.0005,32,0.0,mean_absolute_error,1371.9204149658244
-"[128, 64]",elu,sgd,0.01,32,0.0,mean_squared_error,1372.8896532496703
-"[256, 128]",relu,sgd,0.001,16,0.1,mean_squared_error,1372.8896532496703
-"[64, 32]",relu,sgd,0.005,32,0.0,mean_squared_error,1372.8896532496703
-"[128, 64]",relu,sgd,0.001,64,0.0,mean_squared_error,1372.8896532496703
-"[128, 64]",elu,sgd,0.01,32,0.2,mean_squared_error,1372.8896532496703
-"[256, 128]",relu,sgd,0.001,64,0.2,mean_squared_error,1372.8896532496703
-"[256, 128, 64]",leaky_relu,sgd,0.0001,16,0.0,huber,1391.4951491111997
-"[64, 32]",elu,sgd,0.0005,16,0.2,huber,1393.0662224029409
-"[64, 32]",relu,sgd,0.005,32,0.0,mean_absolute_error,1452.2464494706123
-"[128, 64]",relu,sgd,0.0005,16,0.1,huber,1476.1914679336146
-"[256, 128]",relu,sgd,0.001,64,0.0,mean_absolute_error,1481.0622876840798
-"[256, 128]",elu,sgd,0.0001,32,0.0,mean_absolute_error,1525.9908256604951
-"[128, 64]",relu,sgd,0.0001,16,0.0,huber,1568.274529538754
-"[256, 128, 64]",relu,rmsprop,0.01,16,0.0,huber,1586.0660452831087
-"[256, 128, 64]",leaky_relu,sgd,0.01,16,0.1,mean_absolute_error,1736.2085128232727
-"[64, 32]",leaky_relu,sgd,0.0001,32,0.0,mean_absolute_error,1853.029613902595
-"[256, 128]",leaky_relu,rmsprop,0.0001,32,0.0,huber,2167.053298836925
-"[64, 32]",relu,rmsprop,0.0005,32,0.2,huber,2243.913656984154
-"[64, 32]",leaky_relu,rmsprop,0.005,64,0.1,huber,5071.992310719724
-"[128, 64, 32]",elu,sgd,0.005,16,0.2,mean_squared_error,inf
-"[256, 128]",leaky_relu,sgd,0.0005,32,0.2,mean_squared_error,inf
-"[256, 128, 64]",elu,sgd,0.005,16,0.2,mean_squared_error,inf
-"[128, 64, 32]",relu,sgd,0.01,64,0.2,mean_squared_error,inf
-"[128, 64]",leaky_relu,sgd,0.0001,32,0.0,mean_squared_error,inf
+"[256, 128, 64]",relu,adam,0.005,32,0.0,huber,822.855224609375
+"[256, 128]",elu,rmsprop,0.01,64,0.0,mean_absolute_error,825.2843017578125
+"[64, 32]",elu,rmsprop,0.01,64,0.1,huber,827.4437255859375
+"[256, 128]",relu,rmsprop,0.01,64,0.2,mean_absolute_error,830.7639770507812
+"[256, 128, 64]",elu,rmsprop,0.001,32,0.2,mean_absolute_error,831.7455444335938
+"[256, 128, 64]",leaky_relu,rmsprop,0.01,64,0.1,mean_absolute_error,832.9344482421875
+"[256, 128]",elu,rmsprop,0.005,32,0.2,mean_squared_error,832.9779663085938
+"[256, 128, 64]",elu,rmsprop,0.005,64,0.1,huber,835.5737915039062
+"[256, 128, 64]",relu,sgd,0.01,32,0.1,mean_absolute_error,840.8959350585938
+"[256, 128]",elu,adam,0.0005,16,0.2,mean_squared_error,843.000244140625
+"[256, 128, 64]",elu,adam,0.001,64,0.0,mean_squared_error,846.1598510742188
+"[128, 64]",relu,adam,0.005,64,0.0,mean_squared_error,846.483154296875
+"[256, 128]",elu,rmsprop,0.01,16,0.0,mean_squared_error,848.55224609375
+"[64, 32]",elu,adam,0.005,32,0.2,mean_squared_error,849.7836303710938
+"[128, 64]",elu,rmsprop,0.01,16,0.1,mean_squared_error,850.1065673828125
+"[256, 128, 64]",elu,adam,0.0005,32,0.1,mean_absolute_error,851.170166015625
+"[128, 64, 32]",relu,adam,0.0005,32,0.2,mean_squared_error,852.57373046875
+"[256, 128, 64]",relu,adam,0.0005,32,0.2,mean_squared_error,856.9152221679688
+"[256, 128]",leaky_relu,rmsprop,0.01,16,0.0,huber,860.6766357421875
+"[256, 128, 64]",elu,sgd,0.0005,16,0.2,mean_absolute_error,864.43310546875
+"[128, 64, 32]",elu,adam,0.0005,32,0.1,mean_absolute_error,865.137451171875
+"[64, 32]",elu,rmsprop,0.01,16,0.2,huber,896.855224609375
+"[64, 32]",relu,adam,0.0005,16,0.1,huber,897.5775146484375
+"[256, 128]",elu,adam,0.0005,64,0.1,huber,904.8626098632812
+"[256, 128, 64]",elu,rmsprop,0.001,32,0.0,mean_squared_error,908.1920776367188
+"[64, 32]",elu,adam,0.001,32,0.1,mean_absolute_error,909.0386962890625
+"[256, 128]",elu,rmsprop,0.0005,32,0.2,huber,909.332763671875
+"[64, 32]",elu,rmsprop,0.0005,32,0.1,huber,911.1318969726562
+"[128, 64]",relu,rmsprop,0.005,64,0.1,mean_squared_error,914.8489379882812
+"[256, 128]",relu,adam,0.0005,64,0.2,mean_squared_error,916.22021484375
+"[64, 32]",relu,adam,0.001,32,0.1,huber,917.9656982421875
+"[256, 128]",elu,adam,0.0001,64,0.0,mean_absolute_error,919.0382080078125
+"[64, 32]",elu,rmsprop,0.0001,16,0.0,mean_absolute_error,921.3109741210938
+"[64, 32]",relu,adam,0.0005,32,0.1,mean_absolute_error,924.8760986328125
+"[64, 32]",elu,adam,0.01,16,0.0,mean_squared_error,925.0632934570312
+"[128, 64]",leaky_relu,rmsprop,0.005,64,0.2,mean_absolute_error,926.822265625
+"[128, 64]",elu,adam,0.0001,16,0.0,huber,930.1527709960938
+"[256, 128]",relu,rmsprop,0.001,32,0.0,huber,931.7291870117188
+"[64, 32]",leaky_relu,rmsprop,0.01,16,0.2,huber,935.9063720703125
+"[64, 32]",relu,adam,0.0005,16,0.0,mean_absolute_error,936.3029174804688
+"[128, 64, 32]",leaky_relu,rmsprop,0.0001,32,0.0,huber,938.411376953125
+"[256, 128, 64]",leaky_relu,rmsprop,0.0001,32,0.0,mean_absolute_error,940.1371459960938
+"[128, 64, 32]",relu,rmsprop,0.0005,64,0.2,mean_absolute_error,941.7356567382812
+"[256, 128]",leaky_relu,rmsprop,0.0005,32,0.0,huber,943.5957641601562
+"[256, 128, 64]",leaky_relu,rmsprop,0.0001,64,0.2,huber,945.2200317382812
+"[64, 32]",elu,rmsprop,0.005,64,0.2,mean_squared_error,945.2702026367188
+"[256, 128, 64]",relu,rmsprop,0.0005,32,0.0,mean_absolute_error,949.6266479492188
+"[128, 64]",leaky_relu,rmsprop,0.005,64,0.0,huber,951.9580688476562
+"[256, 128, 64]",leaky_relu,rmsprop,0.001,64,0.1,mean_absolute_error,955.5048828125
+"[128, 64, 32]",leaky_relu,rmsprop,0.001,16,0.2,mean_squared_error,956.99169921875
+"[64, 32]",relu,adam,0.0005,64,0.0,mean_absolute_error,965.4982299804688
+"[64, 32]",leaky_relu,rmsprop,0.0001,16,0.1,mean_squared_error,975.2892456054688
+"[256, 128, 64]",elu,sgd,0.0005,64,0.1,huber,976.9035034179688
+"[64, 32]",leaky_relu,adam,0.0001,64,0.0,mean_squared_error,985.6521606445312
+"[64, 32]",elu,rmsprop,0.001,32,0.2,mean_squared_error,994.5697021484375
+"[256, 128]",leaky_relu,rmsprop,0.0001,32,0.2,mean_squared_error,1009.6517333984375
+"[64, 32]",relu,rmsprop,0.0001,64,0.0,mean_absolute_error,1032.508056640625
+"[128, 64, 32]",leaky_relu,sgd,0.01,64,0.0,mean_absolute_error,1032.68798828125
+"[128, 64]",relu,sgd,0.0001,32,0.1,huber,1037.196533203125
+"[128, 64]",relu,rmsprop,0.0005,64,0.1,mean_squared_error,1050.8958740234375
+"[64, 32]",relu,rmsprop,0.0001,32,0.0,mean_absolute_error,1052.5614013671875
+"[256, 128, 64]",leaky_relu,rmsprop,0.0001,32,0.2,mean_squared_error,1089.217529296875
+"[256, 128, 64]",relu,adam,0.0005,16,0.0,mean_absolute_error,1103.468505859375
+"[128, 64, 32]",relu,sgd,0.001,32,0.0,huber,1111.415771484375
+"[128, 64, 32]",leaky_relu,sgd,0.0005,32,0.2,mean_absolute_error,1122.3873291015625
+"[64, 32]",leaky_relu,adam,0.001,32,0.2,mean_absolute_error,1124.3248291015625
+"[64, 32]",relu,sgd,0.005,32,0.0,huber,1131.953125
+"[256, 128]",relu,adam,0.0005,32,0.0,huber,1133.0518798828125
+"[128, 64]",leaky_relu,sgd,0.001,64,0.2,mean_absolute_error,1155.20166015625
+"[256, 128, 64]",relu,adam,0.0005,32,0.0,huber,1164.006103515625
+"[128, 64, 32]",leaky_relu,sgd,0.001,16,0.1,huber,1172.4857177734375
+"[64, 32]",elu,sgd,0.005,16,0.0,huber,1174.81591796875
+"[64, 32]",leaky_relu,adam,0.005,64,0.1,huber,1197.7513427734375
+"[64, 32]",leaky_relu,adam,0.01,32,0.1,mean_absolute_error,1202.7071533203125
+"[256, 128, 64]",relu,sgd,0.005,64,0.2,mean_absolute_error,1226.05224609375
+"[256, 128]",leaky_relu,sgd,0.0005,32,0.2,huber,1236.2711181640625
+"[128, 64, 32]",leaky_relu,sgd,0.0001,16,0.2,mean_absolute_error,1238.799072265625
+"[256, 128, 64]",leaky_relu,adam,0.0001,64,0.2,huber,1242.801025390625
+"[256, 128, 64]",leaky_relu,adam,0.001,64,0.1,huber,1242.9224853515625
+"[128, 64]",elu,sgd,0.001,16,0.1,mean_absolute_error,1244.2861328125
+"[256, 128]",relu,sgd,0.0001,64,0.1,mean_squared_error,1256.83837890625
+"[64, 32]",elu,sgd,0.0001,32,0.2,mean_squared_error,1256.83837890625
+"[256, 128]",relu,sgd,0.01,16,0.2,mean_squared_error,1256.83837890625
+"[256, 128]",elu,sgd,0.0005,16,0.0,mean_squared_error,1256.83837890625
+"[128, 64]",elu,sgd,0.005,32,0.2,mean_squared_error,1256.83837890625
+"[256, 128, 64]",relu,adam,0.0001,32,0.2,mean_absolute_error,1264.2530517578125
+"[128, 64]",relu,sgd,0.0005,32,0.1,mean_absolute_error,1264.2962646484375
+"[64, 32]",leaky_relu,adam,0.001,16,0.0,mean_absolute_error,1267.988525390625
+"[128, 64]",leaky_relu,adam,0.0005,64,0.0,mean_absolute_error,1271.92919921875
+"[128, 64]",elu,sgd,0.0005,16,0.0,huber,1276.7650146484375
+"[256, 128, 64]",relu,sgd,0.0005,32,0.1,huber,1280.823974609375
+"[256, 128, 64]",leaky_relu,sgd,0.001,32,0.0,mean_absolute_error,1304.6036376953125
+"[128, 64]",relu,sgd,0.01,16,0.2,huber,1313.3638916015625
+"[256, 128, 64]",leaky_relu,adam,0.0005,32,0.1,huber,1359.71630859375
+"[256, 128]",elu,sgd,0.005,64,0.0,mean_absolute_error,1403.2864990234375
+"[256, 128, 64]",leaky_relu,sgd,0.0001,16,0.0,mean_squared_error,inf
+"[128, 64, 32]",leaky_relu,sgd,0.001,16,0.1,mean_squared_error,inf
+"[128, 64]",elu,sgd,0.001,64,0.2,mean_squared_error,inf
+"[64, 32]",leaky_relu,sgd,0.0005,32,0.2,mean_squared_error,inf
+"[256, 128]",leaky_relu,sgd,0.005,32,0.1,mean_squared_error,inf
